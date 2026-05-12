@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="aboutme.html">Sobre mí</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <h1>Proyectos</h1>
+    </div>
+    <div class="cajas-js">
+        <nav class="proyectos">
+            <button type="button" data-categoria="illust">
+                Ilustraciones
+            </button>
+            <button type="button" data-categoria="anim">
+                Animaciones
+            </button>
+            <button type="button" data-categoria="juegos">
+                Juegos
+            </button>
+            <button type="button" data-categoria="sketch">
+                Bocetos
+            </button>
+            <button type="button" data-categoria="all">
+                Todos
+            </button>
+        </nav>
+        <nav id="ilustraciones">
+            <div class="caja" data-categoria="illust">
+                <a href="img/nedisny.png">
+                    <img src="img/nedisny.png" alt="Ilustración 1">
+                </a>
+                <p>"Nedisny"</p>
+            </div>
+            <div class="caja" data-categoria="illust">
+                <a href="img/nature.png"> <img src="img/nature.png" alt="Ilustración 2"></a>
+                <p>"Nova"</p>
+            </div>
+            <div class="caja" data-categoria="illust">
+                <a href="img/kebab.png">
+                    <img src="img/kebab.png" alt="Ilustración 3">
+                </a>
+                <p>"Sora"</p>
+            </div>
+            <div class="caja" data-categoria="illust">
+                <a href="img/taco.png"><img src="img/taco.png" alt="Ilustración 4">
+                </a>
+                <p>"Taco"</p>
+            </div>
+            <div class="caja" data-categoria="illust">
+                <a href="img/invincible.png">
+                    <img src="img/invincible.png" alt="Ilustración 5">
+                </a>
+                <p>"Invincible"</p>
+            </div>
+            <div class="caja" data-categoria="illust">
+                <a href="img/tsiuri.png">
+                    <img src="img/tsiuri.png" alt="Ilustración 6">
+                </a>
+                <p>"Tsiuri"</p>
+            </div>
+        </nav>
+        <nav id="animaciones">
+            <div class="caja" data-categoria="anim">
+                <a href="vid/white happy.mp4">
+                    <video src="vid/white happy.mp4"></video>
+                </a>
+                <p>"White Happy"</p>
+            </div>
+            <div class="caja" data-categoria="anim">
+                <a href="vid/dancing girl [E95413A].mp4">
+                    <video src="vid/dancing girl [E95413A].mp4"></video>
+                </a>
+                <p>"Abnormality Dancing Girl"</p>
+            </div>
+            <div class="caja" data-categoria="anim">
+                <a href="vid/iii [6F3399A].mp4">
+                    <video src="vid/iii [6F3399A].mp4"></video>
+                </a>
+                <p>"III" (regalo)</p>
+            </div>
+            </nav>
+        <nav id="bocetos">
+            <div class="caja" data-categoria="sketch">
+                <a href="img/toru.png">
+                    <img src="img/toru.png" alt="Boceto 1">
+                </a>
+                <p>Estudio de otro estilo artístico.</p>
+            </div>
+            <div class="caja" data-categoria="sketch">
+                <a href="img/sea.png">
+                    <img src="img/sea.png" alt="Boceto 1" id="sea">
+                </a>
+                <p>Probando colores.</p>
+            </div>
+            <div class="caja" data-categoria="sketch">
+                <a href="img/darian.png">
+                    <img src="img/darian.png" alt="Boceto 3">
+                </a>
+                <p>Busto de un OC.</p>
+            </div>
+            <div class="caja" data-categoria="sketch">
+                <a href="img/aliengirl.png">
+                    <img src="img/aliengirl.png" alt="Boceto 4">
+                </a>
+                <p>Probando otro estilo.</p>
+            </div>
+            <div class="caja" data-categoria="sketch">
+                <a href="img/andrew.png">
+                    <img src="img/andrew.png" alt="Boceto 5">
+                </a>
+                <p>Busto simple.</p>
+            </div>
+            <div class="caja" data-categoria="sketch">
+                <a href="img/timebomb.png">
+                    <img src="img/timebomb.png" alt="Boceto 6">
+                </a>
+                <p>Dibujo sin terminar.</p>
+            </div>
+        </nav>
+        <nav id="juegos">
+            <div class="caja" data-categoria="juegos">
+                <iframe frameborder="0" src="https://itch.io/embed/3828421" width="555" height="175"><a
+                        href="https://toi-wbl.itch.io/world-beyond-life-demo">World Beyond Life: Demo by
+                        toi_wbl</a></iframe>
+                <p>World Beyond Life: Demo</p>
+            </div>
+        </nav>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
