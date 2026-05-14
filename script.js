@@ -14,7 +14,7 @@ botones.forEach(boton => {
     boton.addEventListener('click', () => {
         botones.forEach(b => b.classList.remove('select'));
         boton.classList.add('select');
-
+        filtrarProyectos(boton.dataset.categoria);
     });
 });
 
