@@ -1,6 +1,6 @@
 function filtrarProyectos(categorSelect) {
-    const cajas = document.querySelectorAll('.caja');
-    cajas.forEach(caja => {
+    const filtros = document.querySelectorAll('.caja');
+    filtros.forEach(caja => {
         if (categorSelect === 'all' || caja.dataset.categoria === categorSelect) {
             caja.classList.remove('oculto');
         } else {
