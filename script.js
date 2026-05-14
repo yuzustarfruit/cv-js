@@ -17,6 +17,3 @@ botones.forEach(boton => {
         filtrarProyectos(boton.dataset.categoria);
     });
 });
-
-console.log("he estado hasta las 4 AM viendo tutoriales, he visto tanto la propiedad de querySelectorAll que ya no me parece una propiedad de verdad.")
-
